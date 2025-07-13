@@ -16,9 +16,10 @@
                 #binding-cells = <0>;
                 bindings = <&kp ESC>, <&kp LCTRL>;
                 tapping-term-ms = <200>;
-         };
+                };
 
-        td_alt: td_alt {
+
+                td_alt: td_alt {
                 compatible = "zmk,behavior-tap-dance";
                 label = "TD_ALT_MENU";
                 #binding-cells = <0>;
