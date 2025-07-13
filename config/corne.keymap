@@ -18,7 +18,6 @@
                 tapping-term-ms = <200>;
                 };
 
-
                 td_alt: td_alt {
                 compatible = "zmk,behavior-tap-dance";
                 label = "TD_ALT_MENU";
