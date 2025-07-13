@@ -14,7 +14,7 @@
                 compatible = "zmk,behavior-tap-dance";
                 label = "TD_CTRL_ESC";
                 #binding-cells = <0>;
-                bindings = <&kp ESC>, <&kp LCTRL>;
+                bindings = <&kp ESC &kp LCTRL>;
                 tapping-term-ms = <200>;
                 };
 
@@ -22,7 +22,7 @@
                 compatible = "zmk,behavior-tap-dance";
                 label = "TD_ALT_MENU";
                 #binding-cells = <0>;
-                bindings = <&kp MENU>, <&kp LALT>;
+                bindings = <&kp MENU &kp LALT>;
                 tapping-term-ms = <200>;
                 };
         };
