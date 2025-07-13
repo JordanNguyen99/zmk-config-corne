@@ -9,23 +9,7 @@
 #include <dt-bindings/zmk/bt.h>
 
 / {
-        behaviors {
-                td_ctrl: td_ctrl {
-                compatible = "zmk,behavior-tap-dance";
-                label = "TD_CTRL_ESC";
-                #binding-cells = <0>;
-                bindings = <&kp ESC &kp LCTRL>;
-                tapping-term-ms = <200>;
-                };
 
-                td_alt: td_alt {
-                compatible = "zmk,behavior-tap-dance";
-                label = "TD_ALT_MENU";
-                #binding-cells = <0>;
-                bindings = <&kp MENU &kp LALT>;
-                tapping-term-ms = <200>;
-                };
-        };
         keymap {
                 compatible = "zmk,keymap";
 
@@ -39,7 +23,7 @@
    &kp TAB &kp SQT &kp COMMA &kp DOT &kp P &kp Y  &kp F &kp G &kp C &kp R &kp L &kp FSLH
    &kp LBKT &kp A &kp O &kp E &kp U &kp I  &kp D &kp H &kp T &kp N  &kp S &kp MINUS
    &kp RBKT &kp SEMI &kp Q &kp J &kp K &kp X  &kp B &kp M &kp W &kp V &kp Z &kp EQUAL
-                   &td_ctrl &kp RET &kp SPACE   &kp BSPC &kp RET &td_alt
+                   &mo 1 &kp RET &kp SPACE   &kp BSPC &kp RET &mo 2
                         >;
                 };
                 lower_layer {
