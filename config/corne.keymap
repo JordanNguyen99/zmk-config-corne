@@ -21,8 +21,8 @@
                         bindings = <
    &kp TAB &kp SQT &kp COMMA &kp DOT &kp P &kp Y  &kp F &kp G &kp C &kp R &kp L &kp FSLH
    &kp LBKT &kp A &kp O &kp E &kp U &kp I  &kp D &kp H &kp T &kp N  &kp S &kp MINUS
-   &kp RBKT &kp SEMI &kp Q &kp J &kp K &kp X  &kp B &kp M &kp W &kp V &kp Z &kp =
-                  &kp LGUI &mo 1 &kp SPACE   &kp RET &mo 2 &kp RALT
+   &kp RBKT &kp SEMI &kp Q &kp J &kp K &kp X  &kp B &kp M &kp W &kp V &kp Z &kp EQUAL
+                   &mo 1 &kp RET &kp SPACE   &kp SPACE &kp BSPC &mo 2
                         >;
                 };
                 lower_layer {
